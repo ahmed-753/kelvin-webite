@@ -1,0 +1,165 @@
+@import "./reset.css";
+
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+.header{
+    background-color:#F1F1F1;
+    padding-top:40px;
+
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    position: relative;
+}
+.logo:after{
+    content: "";
+    display: block;
+    width: 8px;
+    height:8px;
+    border-radius:50%;
+    background-color: #FDA300;
+    position:absolute;
+   right:-10px;
+    bottom: 10px;
+
+}
+/*/nav*/
+.nav-list{
+    display: flex;
+    column-gap:50px;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    transition: 1s;
+}
+.nav-btn{
+    display: none;
+}
+/*info*/
+.header-info{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+.header-text{
+    max-width: 544px;
+
+}
+.info-title{
+    font-weight: 600;
+    font-size: 44px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.info-description{
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 100px;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+
+.services-cards{
+    display: flex;
+    margin: 100px 0;
+    column-gap: 30px;
+
+}
+.services-card{
+
+}
+.card-img{
+
+}
+.cart-title{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}
+.cart-title{
+
+}
+.cart-descrription{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.portfolio{
+    background-color: #f1f1f1;
+    padding: 90px 0;
+
+
+}
+.portrfolio-title{
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+
+}
+.portfolio-project{
+text-align: center;
+    margin-top: 90px;
+}
+.portfolio-project h4{
+    margin-top: 40px;
+
+}
+.project-title{
+    color: #070707;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+}
+.contacts-title{
+    font-size: 34px;
+    font-weight: 600;
+
+}
+contacts-text{
+    margin-top: 40px;
+    font-weight: 400;
+
+
+
+}
+.contacts-buttom{
+    display: inline-block;
+    margin: 47px;
+    color: white;
+    padding: 7px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.contacts-logo{
+    padding:0px 30px;
+}
+.contacts-p{
+    font-weight: 400;
+    padding-top: 40px;
+    font-size:14px;
+    line-height: 21px;
+    color:#828282;
+}

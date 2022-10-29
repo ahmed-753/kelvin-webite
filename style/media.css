@@ -1,0 +1,54 @@
+@media(max-width: 1000px){
+    .nav-btn{
+        display: block;
+
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav.open .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: white;
+        padding: 46px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .nav-link{
+        font-weight: 600;
+        font-size: 35px;
+    }
+    .nav-btn{
+        display: block;
+        position: fixed;
+        top: 46px;
+        right: 30px;
+    }
+    .nav.open .nav-btn{
+        display: block;
+    }
+}
+
+
+@media (max-width:768px) {
+    .info-title {
+        font-size: 35px;
+        line-height: 1.2;
+
+    }
+
+    @media (max-width: 560px) {
+        .card-img {
+            display: block;
+            flex-direction: column;
+        }
+
+    }
+}
+
